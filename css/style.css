@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 30px;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px;
+    }
+
+    .profile-img {
+        width: 120px;
+    }
+}
